@@ -1,0 +1,41 @@
+{
+  "name": "UTM Beta",
+  "identifier": "com.t2wmt6sgff-glitch.altsources.utm-beta",
+  "subtitle": "UTM beta oficial para AltStore Classic",
+  "website": "https://getutm.app",
+  "tintColor": "#1a2cc2",
+  "featuredApps": [
+    "com.utmapp.UTM"
+  ],
+  "apps": [
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "osy",
+      "localizedDescription": "UTM es un host de máquinas virtuales para iOS y iPadOS. Esta fuente apunta directamente a la IPA oficial de UTM 5.0.6 Beta publicada por utmapp en GitHub. Esta es la variante normal de UTM para sideloading, con soporte de JIT mediante un JIT enabler compatible.",
+      "iconURL": "https://alt.getutm.app/icon.png",
+      "versions": [
+        {
+          "version": "5.0.6",
+          "date": "2026-09-24T05:35:31Z",
+          "localizedDescription": "UTM 5.0.6 Beta. Cambios relevantes en iOS/iPadOS: snapshots en iOS 26+, mejoras de controles táctiles, correcciones de la barra de herramientas y pantalla externa en iOS 26/27, y mejoras de gestión de imágenes de disco en iOS 26.",
+          "minOSVersion": "15.0",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.6/UTM.ipa",
+          "size": 150346971
+        }
+      ],
+      "subtitle": "Virtual machines for iOS (with JIT support)",
+      "tintColor": "#1a2cc2",
+      "screenshotURLs": [
+        "https://alt.getutm.app/screen0.png",
+        "https://alt.getutm.app/screen1.png",
+        "https://alt.getutm.app/screen2.png",
+        "https://alt.getutm.app/screen3.png",
+        "https://alt.getutm.app/screen4.png",
+        "https://alt.getutm.app/screen5.png",
+        "https://alt.getutm.app/screen6.png"
+      ]
+    }
+  ],
+  "news": []
+}
