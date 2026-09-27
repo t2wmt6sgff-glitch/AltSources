@@ -1,0 +1,67 @@
+{
+  "name": "UTM Beta 5",
+  "identifier": "com.t2wmt6sgff-glitch.altsources.utm-beta-v2",
+  "subtitle": "UTM 5.0.6 Beta oficial para AltStore Classic",
+  "description": "Fuente temporal para instalar la IPA oficial de UTM 5.0.6 Beta publicada por utmapp.",
+  "website": "https://getutm.app",
+  "tintColor": "#1a2cc2",
+  "featuredApps": [
+    "com.utmapp.UTM"
+  ],
+  "apps": [
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS (with JIT support)",
+      "localizedDescription": "UTM 5.0.6 Beta oficial. Esta fuente descarga directamente UTM.ipa desde la release oficial de utmapp/UTM.",
+      "iconURL": "https://alt.getutm.app/icon.png",
+      "tintColor": "#1a2cc2",
+      "minOSVersion": "15.0",
+      "screenshotURLs": [
+        "https://alt.getutm.app/screen0.png",
+        "https://alt.getutm.app/screen1.png",
+        "https://alt.getutm.app/screen2.png",
+        "https://alt.getutm.app/screen3.png",
+        "https://alt.getutm.app/screen4.png",
+        "https://alt.getutm.app/screen5.png",
+        "https://alt.getutm.app/screen6.png"
+      ],
+      "versions": [
+        {
+          "version": "5.0.6",
+          "buildVersion": "125",
+          "date": "2026-09-24T05:35:31Z",
+          "localizedDescription": "UTM 5.0.6 Beta. Incluye las correcciones y funciones de la rama 5.0 para iOS/iPadOS 26 y 27.",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.6/UTM.ipa",
+          "size": 150346971,
+          "sha256": "b2181d01d25140ea23f330526deeaeb436d80c7476328352f9b5335f4369cdc7",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "dynamic-codesigning",
+          "com.apple.private.iokit.IOServiceSetAuthorizationID",
+          "com.apple.security.exception.iokit-user-client-class",
+          "com.apple.system.diagnostics.iokit-properties",
+          "com.apple.vm.device-access",
+          "com.apple.private.hypervisor",
+          "com.apple.private.memorystatus",
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationAlwaysUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+        }
+      }
+    }
+  ],
+  "news": []
+}
