@@ -34,7 +34,64 @@
         "https://alt.getutm.app/screen4.png",
         "https://alt.getutm.app/screen5.png",
         "https://alt.getutm.app/screen6.png"
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [
+          {
+            "name": "get-task-allow"
+          },
+          {
+            "name": "com.apple.developer.kernel.increased-memory-limit"
+          },
+          {
+            "name": "com.apple.developer.kernel.extended-virtual-addressing"
+          },
+          {
+            "name": "dynamic-codesigning"
+          },
+          {
+            "name": "com.apple.private.iokit.IOServiceSetAuthorizationID"
+          },
+          {
+            "name": "com.apple.security.exception.iokit-user-client-class"
+          },
+          {
+            "name": "com.apple.system.diagnostics.iokit-properties"
+          },
+          {
+            "name": "com.apple.vm.device-access"
+          },
+          {
+            "name": "com.apple.private.hypervisor"
+          },
+          {
+            "name": "com.apple.private.memorystatus"
+          }
+        ],
+        "privacy": [
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "The virtual machine may access the local network. UTM also uses the local network to communicate with AltServer."
+          },
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
+          },
+          {
+            "name": "LocationAlways",
+            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Permission is required for any virtual machine to record from the microphone."
+          }
+        ]
+      },
+      "minOSVersion": "15.0"
     }
   ],
   "news": []
